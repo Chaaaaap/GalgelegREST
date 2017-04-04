@@ -6,7 +6,7 @@
 package chat;
 
 import javax.ws.rs.client.Client;
-import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
+//import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
 
 /**
  *
@@ -17,7 +17,8 @@ public class ChatClient {
     public static void main(String[] args) {
         String name = args[0];
         
-        final Client client = new ResteasyClientBuilder().connectionPoolSize(3).build();
+//        final Client client = new ResteasyClientBuilder().connectionPoolSize(3).build();
     }
     
 }
+
